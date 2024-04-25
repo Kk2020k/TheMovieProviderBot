@@ -25,7 +25,7 @@ PICS = (environ.get('PICS', 'https://graph.org/file/09973eb32ed7f72468dc3.jpg'))
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/09973eb32ed7f72468dc3.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/09973eb32ed7f72468dc3.jpg")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/09973eb32ed7f72468dc3.jpg")
-SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/734170f40b8169830d821.jpg'))
+SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/31e2703487b03ee78f3c7.jpg'))
 CODE = (environ.get('CODE', 'https://telegra.ph/file/72f425007b22d28bd935e.jpg'))
 
 #stream link shortner
