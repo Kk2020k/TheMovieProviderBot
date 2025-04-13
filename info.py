@@ -36,7 +36,7 @@ STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/AR_Linkzz/36'))
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1735392935').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002144697861').split()] #Channel id for auto indexing ( make sure bot is admin )
-auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS',).split()]
+auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS','1735392935').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '1735392935').split()]
 auth_channel = environ.get('AUTH_CHANNEL', '-1002165455523') #Channel / Group Id for force sub ( make sure bot is admin )
